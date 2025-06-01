@@ -32,8 +32,8 @@ mongoose.connect(MONGODB_URI)
   .catch(err => console.error('MongoDB Connection Error: ', err));
 
 // --- Import Mongoose Models ---
-const Menu = require(__dirname + './models/Menu');
-const User = require(__dirname + './models/User'); 
+const Menu = require(__dirname + './models/Menu ');
+const User = require(__dirname + './models/User '); 
 
 // --- Basic Route (for testing server status) ---
 // Access this in your browser: http://localhost:3000/
